@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import "@/app/ui/global.css";
+import "@/app/ui/globals.css";
+
 import { montserrat } from "@/app/ui/fonts";
 
 export const metadata: Metadata = {
