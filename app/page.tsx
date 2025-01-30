@@ -34,9 +34,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* to do: react component: GenerateCombinations */}
+      {/* to do: react component: GenerateCombination */}
       <div className="border-2 border-solid border-green-600">
-        <p>component: GenerateCombinations</p>
+        <p>component: GenerateCombination</p>
         <p>accesa: objeto anterior generado por NumberRange</p>
         <p>acción: continúa chain</p>
         <button className="border-2 border-solid border-orange-600">Botón: Generar</button>
@@ -46,9 +46,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* to do: react component: GetRandomCombination */}
+      {/* to do: react component: RandomCombination */}
       <div className="border-2 border-solid border-fuchsia-600">
-        <p>component: GetRandomCombination</p>
+        <p>component: RandomCombination</p>
         <p>accesa: objeto anterior generado por GenerateCombinations</p>
         <p>acción: cierra chain, elegir al azar alguna de las combinaciones</p>
         <button className="border-2 border-solid border-orange-600">Botón: Elegir</button>
