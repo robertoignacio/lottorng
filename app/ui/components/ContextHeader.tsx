@@ -3,14 +3,15 @@
 // accent font: montserrat
 import { montserrat } from "@/app/ui/fonts";
 
+// style vars
+const styleBorder_Temp = "border-2 border-solid border-blue-600";
+const styleTitle = `${montserrat.className} text-xl font-bold antialiased`;
+
 export default function ContextHeader() {
     return (
-        <div className="border-2 border-solid border-blue-600">
-        <p>component: ContextHeader</p>
-        <p>accesa: null</p>
-        <p>acción: display objetivo</p>
-        <h1 className={`${montserrat.className} text-xl font-bold antialiased`}>title: Lotto RNG</h1>
-        <p>descr: Generar combinación para jugarla en el lotto</p>
+        <div className={styleBorder_Temp}>
+        <h1 className={styleTitle}>Generador de Números para jugar al Lotto</h1>
+        <p>Instrucciones:</p>
         </div>
     )
 };
