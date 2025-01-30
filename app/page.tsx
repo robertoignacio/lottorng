@@ -6,8 +6,8 @@ import { montserrat } from "@/app/ui/fonts";
 export default function Home() {
   return (
     <>
-      {/* to do: react component: Wrapper */}
-      <div className="border-2 border-solid border-fuchsia-600 p-8 min-h-screen">
+    {/* to do: react component: Wrapper */}
+    <div className="border-2 border-solid border-fuchsia-600 p-8 min-h-screen">
 
       {/* to do: react component: ContextHeader */}
       <div className="border-2 border-solid border-blue-600">
