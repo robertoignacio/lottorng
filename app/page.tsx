@@ -3,6 +3,8 @@
 // accent font: montserrat
 import { montserrat } from "@/app/ui/fonts";
 
+import GetRandomSetCombination from "@/app/ui/components/GetRandomSetCombination";
+
 export default function Home() {
   return (
     <>
@@ -46,14 +48,8 @@ export default function Home() {
         </div>
       </div>
 
-      {/* to do: react component: GetRandomCombination */}
-      <div className="border-2 border-solid border-fuchsia-600">
-        <p>component: GetRandomCombination</p>
-        <p>accesa: objeto anterior generado por GenerateCombinations</p>
-        <p>acción: cierra chain, elegir al azar alguna de las combinaciones</p>
-        <button className="border-2 border-solid border-orange-600">Botón: Elegir</button>
-        <p>Displays: Combinación a jugar</p>
-      </div>
+      {/* to do: react component: GetRandomSetCombination */}
+      <GetRandomSetCombination />
 
     </div>
 
