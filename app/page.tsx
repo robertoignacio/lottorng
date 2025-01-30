@@ -3,11 +3,11 @@
 // accent font: montserrat
 import { montserrat } from "@/app/ui/fonts";
 
+import Wrapper from "@/app/ui/components/Wrapper";
+
 export default function Home() {
   return (
-    <>
-    {/* to do: react component: Wrapper */}
-    <div className="border-2 border-solid border-fuchsia-600 p-8 min-h-screen">
+    <Wrapper>
 
       {/* to do: react component: ContextHeader */}
       <div className="border-2 border-solid border-blue-600">
@@ -55,8 +55,7 @@ export default function Home() {
         <p>Displays: Combinación a jugar</p>
       </div>
 
-    </div>
+    </Wrapper>
 
-    </>
   );
 }
