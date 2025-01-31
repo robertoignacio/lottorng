@@ -1,10 +1,8 @@
 // body font: noto_sans
 // accent font: montserrat
-// import { montserrat } from "@/app/ui/fonts";
+
 
 import ContextHeader from "@/app/ui/components/ContextHeader";
-
-
 import NumberRange from "@/app/ui/components/NumberRange";
 
 export default function Home() {
